@@ -21,10 +21,12 @@ if (strlen($name) > 3 && strpos($mail, '.') !== false && strpos($mail, '@') !== 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Access result</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
 </head>
 
 <body>
-    <h1 style="color: <?= $text_color ?>"> <?= $result_message; ?></h1>
+    <h1 style="color: <?= $text_color ?>" class="text-center mt-5"> <?= $result_message; ?></h1>
 
 </body>
 
